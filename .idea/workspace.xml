@@ -4,6 +4,7 @@
     <list default="true" id="79bf78ff-6206-4165-b970-0e8f1ae275e3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fogfeather/settings/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/fogfeather/settings/base.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,8 +56,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/fogfeather/settings/base.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="133" column="3" lean-forward="true" selection-start-line="133" selection-start-column="3" selection-end-line="133" selection-end-column="3" />
+            <state relative-caret-position="97">
+              <caret line="133" column="38" lean-forward="true" selection-start-line="133" selection-start-column="38" selection-end-line="133" selection-end-column="38" />
               <folding>
                 <element signature="e#309#318#0" expanded="true" />
               </folding>
@@ -218,17 +219,17 @@
       <workItem from="1555996823105" duration="7257000" />
       <workItem from="1556084605630" duration="12797000" />
       <workItem from="1556172509340" duration="12459000" />
-      <workItem from="1556257459426" duration="2805000" />
+      <workItem from="1556257459426" duration="3393000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41044000" />
+    <option name="totallyTimeSpent" value="41632000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-37" width="1366" height="805" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29469696" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29469696" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -242,7 +243,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.5036075" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.5036075" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.5974026" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -438,8 +439,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/fogfeather/settings/base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="133" column="3" lean-forward="true" selection-start-line="133" selection-start-column="3" selection-end-line="133" selection-end-column="3" />
+        <state relative-caret-position="97">
+          <caret line="133" column="38" lean-forward="true" selection-start-line="133" selection-start-column="38" selection-end-line="133" selection-end-column="38" />
           <folding>
             <element signature="e#309#318#0" expanded="true" />
           </folding>
