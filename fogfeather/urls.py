@@ -17,9 +17,11 @@ from django.contrib import admin
 from django.urls import path, include
 import django_saml2_auth.views
 
+
 urlpatterns = [
     path('saml2_auth/', include('django_saml2_auth.urls')),
     path('admin/', admin.site.urls),
     path('accounts/', include('django.contrib.auth.urls')),
     path('', include('core.urls')),
 ]
+
