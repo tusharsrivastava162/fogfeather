@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79bf78ff-6206-4165-b970-0e8f1ae275e3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fogfeather/settings/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/fogfeather/settings/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fogfeather/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/fogfeather/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +55,7 @@
         <entry file="file://$PROJECT_DIR$/fogfeather/settings/base.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="97">
-              <caret line="133" column="38" selection-start-line="133" selection-start-column="38" selection-end-line="133" selection-end-column="38" />
+              <caret line="136" column="34" lean-forward="true" selection-start-line="136" selection-start-column="34" selection-end-line="136" selection-end-column="34" />
               <folding>
                 <element signature="e#309#318#0" expanded="true" />
               </folding>
@@ -219,12 +217,12 @@
       <workItem from="1555996823105" duration="7257000" />
       <workItem from="1556084605630" duration="12797000" />
       <workItem from="1556172509340" duration="12459000" />
-      <workItem from="1556257459426" duration="1908000" />
+      <workItem from="1556257459426" duration="2246000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40147000" />
+    <option name="totallyTimeSpent" value="40485000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-37" width="1366" height="805" extended-state="6" />
@@ -440,7 +438,7 @@
     <entry file="file://$PROJECT_DIR$/fogfeather/settings/base.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="97">
-          <caret line="133" column="38" selection-start-line="133" selection-start-column="38" selection-end-line="133" selection-end-column="38" />
+          <caret line="136" column="34" lean-forward="true" selection-start-line="136" selection-start-column="34" selection-end-line="136" selection-end-column="34" />
           <folding>
             <element signature="e#309#318#0" expanded="true" />
           </folding>
