@@ -159,10 +159,10 @@ SAML2_AUTH = {
         'SUPERUSER_STATUS': False,  # The superuser status for new users
     },
     'ATTRIBUTES_MAP': {  # Change Email/UserName/FirstName/LastName to corresponding SAML2 userprofile attributes.
-        'email': 'Email',
-        'username': 'UserName',
-        'first_name': 'FirstName',
-        'last_name': 'LastName',
+        'email': 'userName',
+        'username': 'userName',
+        'first_name': 'firstName',
+        'last_name': 'lastName',
     },
     # 'TRIGGER': {
     #     'CREATE_USER': 'path.to.your.new.user.hook.method',
