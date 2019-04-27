@@ -170,6 +170,6 @@ SAML2_AUTH = {
     # },
     'ASSERTION_URL': 'http://13.232.187.120:8000', # Custom URL to validate incoming SAML requests against
     'ENTITY_ID': 'http://13.232.187.120:8000/saml2_auth/acs/', # Populates the Issuer element in authn request
-    'USE_JWT': False, # Set this to True if you are running a Single Page Application (SPA) with Django Rest Framework (DRF), and are using JWT authentication to authorize client users
-    'FRONTEND_URL': 'https://myfrontendclient.com', # Redirect URL for the client if you are using JWT auth with DRF. See explanation below
+    'USE_JWT': True, # Set this to True if you are running a Single Page Application (SPA) with Django Rest Framework (DRF), and are using JWT authentication to authorize client users
+    'FRONTEND_URL': 'http://13.232.187.120', # Redirect URL for the client if you are using JWT auth with DRF. See explanation below
 }
