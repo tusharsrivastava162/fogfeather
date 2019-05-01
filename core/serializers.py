@@ -14,7 +14,7 @@ class UserSerializer(serializers.ModelSerializer):
     """
     def __init__(self, *args, **kwargs):
         serfed(self.Meta, **kwargs)
-        super(UserSerializer, self).__init__(*args, **kwargs)
+        super(UserSerializer, self).__init__()
 
     class Meta:
         model = User
@@ -24,7 +24,7 @@ class ProfileSerializer(serializers.ModelSerializer):
 
     def __init__(self, *args, **kwargs):
         serfed(self.Meta, **kwargs)
-        super(ProfileSerializer, self).__init__(*args, **kwargs)
+        super(ProfileSerializer, self).__init__()
 
     class Meta:
         model = Profile

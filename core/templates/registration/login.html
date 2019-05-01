@@ -10,6 +10,9 @@
                 {{ form|crispy }}
                 <input type="submit" value="Login" class="btn btn-primary">
             </form>
+            <p>
+                <a href="{% url 'social:begin' 'google-oauth2' %}">Login with Google</a>
+            </p>
         </div>
     </div>
 {% endblock %}

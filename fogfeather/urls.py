@@ -22,6 +22,7 @@ urlpatterns = [
     path('saml2_auth/', include('django_saml2_auth.urls')),
     path('admin/', admin.site.urls),
     path('accounts/', include('django.contrib.auth.urls')),
+    path('auth/', include('social_django.urls', namespace='social')),
     path('', include('core.urls')),
 ]
 
