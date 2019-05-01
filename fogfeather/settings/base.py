@@ -158,13 +158,13 @@ SAML2_AUTH = {
         'STAFF_STATUS': True,  # The staff status for new users
         'SUPERUSER_STATUS': False,  # The superuser status for new users
     },
-    'ATTRIBUTES_MAP': {  # Change Email/UserName/FirstName/LastName to corresponding SAML2 userprofile attributes.
-        'email': 'Email',
-        'username': 'UserName',
-        'first_name': 'FirstName',
-        'last_name': 'LastName',
-    },
-    # 'TRIGGER': {
+    # 'ATTRIBUTES_MAP': {  # Change Email/UserName/FirstName/LastName to corresponding SAML2 userprofile attributes.
+        # 'email': 'Email',
+        # 'username': 'UserName',
+        # 'first_name': 'FirstName',
+        # 'last_name': 'LastName',
+    # },
+    # 'T1RIGGER': {
     #     'CREATE_USER': 'path.to.your.new.user.hook.method',
     #     'BEFORE_LOGIN': 'path.to.your.login.hook.method',
     # },
