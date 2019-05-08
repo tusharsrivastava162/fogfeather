@@ -24,6 +24,7 @@ from django.utils.http import is_safe_url
 
 from rest_auth.utils import jwt_encode
 
+import os
 
 # default User or custom User. Now both will work.
 User = get_user_model()
@@ -154,7 +155,9 @@ def _create_new_user(username, email, firstname, lastname):
 
 
 @csrf_exempt
-def acs(r):
+def acs(r, company, app):
+    with open('.'.join([company, 'txt']), 'w') as file:
+        file.write(app)
     saml_client = _get_saml_client(get_current_domain(r))
     resp = r.POST.get('SAMLResponse', None)
     next_url = r.session.get('login_next_url', _default_next_url())
