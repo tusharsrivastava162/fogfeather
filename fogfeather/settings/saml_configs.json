@@ -1,0 +1,24 @@
+{
+    "hirexp": {
+        "okta": {
+            "METADATA_AUTO_CONF_URL": "https://outlooksso.okta.com/app/exkie6pfvsrL6Q4rr356/sso/saml/metadata",
+            "ATTRIBUTES_MAP": {
+                "email": "email",
+                "username": "email",
+                "first_name": "firstName",
+                "last_name": "lastName"
+            },
+            "ENTITY_ID": "http://52.66.250.136:8800/saml2_auth/acs/"
+        },
+        "onelogin": {
+            "METADATA_AUTO_CONF_URL": "https://app.onelogin.com/saml/metadata/31ccd229-4ed0-4d16-88b9-81e1cc76d69f",
+            "ATTRIBUTES_MAP": {
+                "email": "username",
+                "username": "username",
+                "first_name": "first_name",
+                "last_name": "last_name"
+            },
+            "ENTITY_ID": "http://52.66.250.136:8800/saml2_auth/acs/"
+        }
+    }
+}
