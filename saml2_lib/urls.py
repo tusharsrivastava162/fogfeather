@@ -1,7 +1,7 @@
 from django.urls import path
 from . import views
 
-app_name = 'django_saml2_auth'
+app_name = 'saml2_lib'
 
 urlpatterns = [
     path('acs/<str:company>/<str:app>/', views.acs, name="acs"),

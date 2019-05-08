@@ -42,7 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'django_saml2_auth',
+    'saml2_lib',
     'rest_framework',
     'crispy_forms',
     'core',
