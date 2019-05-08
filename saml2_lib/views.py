@@ -66,10 +66,16 @@ def get_reverse(objs, company, app):
         from django.core.urlresolvers import reverse
     if objs.__class__.__name__ not in ['list', 'tuple']:
         objs = [objs]
-
+    if company and app:
+        kwargs = {
+            'company': company,
+            'app': app,
+        }
+    else:
+        kwargs = None
     for obj in objs:
         try:
-            return reverse(obj, kwargs={'company': company, 'app': app})
+            return reverse(obj, kwargs=kwargs)
         except:
             pass
     raise Exception('We got a URL reverse issue: %s. This is a known issue but please still submit a ticket at https://github.com/fangli/django-saml2-auth/issues/new' % str(objs))
