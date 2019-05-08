@@ -58,7 +58,7 @@ def get_current_domain(r):
     )
 
 
-def get_reverse(objs, company, app):
+def get_reverse(objs, company=None, app=None):
     '''In order to support different django version, I have to do this '''
     if parse_version(get_version()) >= parse_version('2.0'):
         from django.urls import reverse
