@@ -170,10 +170,10 @@ SAML_CONST = {
 SAML2_AUTH = {
     # Metadata is required, choose either remote url or local file path
     # Okta
-    #'METADATA_AUTO_CONF_URL': 'https://outlooksso.okta.com/app/exkie6pfvsrL6Q4rr356/sso/saml/metadata',
+    'METADATA_AUTO_CONF_URL': 'https://outlooksso.okta.com/app/exkie6pfvsrL6Q4rr356/sso/saml/metadata',
 
     # OneLogin
-    'METADATA_AUTO_CONF_URL': 'https://app.onelogin.com/saml/metadata/31ccd229-4ed0-4d16-88b9-81e1cc76d69f',
+    # 'METADATA_AUTO_CONF_URL': 'https://app.onelogin.com/saml/metadata/31ccd229-4ed0-4d16-88b9-81e1cc76d69f',
     # 'METADATA_LOCAL_FILE_PATH': '[The metadata configuration file path]',
 
     # Optional settings below
@@ -186,19 +186,19 @@ SAML2_AUTH = {
         'SUPERUSER_STATUS': False,  # The superuser status for new users
     },
     # OneLogin
-    'ATTRIBUTES_MAP': {  # Change Email/UserName/FirstName/LastName to corresponding SAML2 userprofile attributes.
-        'email': 'username',
-        'username': 'username',
-        'first_name': 'first_name',
-        'last_name': 'last_name',
-    },
-    # Okta
     # 'ATTRIBUTES_MAP': {  # Change Email/UserName/FirstName/LastName to corresponding SAML2 userprofile attributes.
     #     'email': 'username',
     #     'username': 'username',
     #     'first_name': 'first_name',
     #     'last_name': 'last_name',
     # },
+    # Okta
+    'ATTRIBUTES_MAP': {  # Change Email/UserName/FirstName/LastName to corresponding SAML2 userprofile attributes.
+        'email': 'email',
+        'username': 'email',
+        'first_name': 'firstName',
+        'last_name': 'lastName',
+    },
     # 'TRIGGER': {
     #     'CREATE_USER': 'path.to.your.new.user.hook.method',
     #     'BEFORE_LOGIN': 'path.to.your.login.hook.method',
