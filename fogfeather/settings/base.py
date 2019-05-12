@@ -150,7 +150,7 @@ CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 
 # SAML
-SAML_CONST = {
+SAML2_CONST = {
     'ASSERTION_URL': 'http://52.66.250.136:8800',
     'USE_JWT': True,
     'CREATE_USER': 'FALSE',
@@ -195,7 +195,7 @@ SAML2_AUTH = {
     #     'BEFORE_LOGIN': 'path.to.your.login.hook.method',
     # },
     'ASSERTION_URL': 'http://52.66.250.136:8800', # Custom URL to validate incoming SAML requests against
-    'ENTITY_ID': 'http://52.66.250.136:8800/saml2_auth/acs/hirexp/okta/', # Populates the Issuer element in authn request
+    'ENTITY_ID': 'http://52.66.250.136:8800/saml2_auth/acs/', # Populates the Issuer element in authn request
     'USE_JWT': True, # Set this to True if you are running a Single Page Application (SPA) with Django Rest Framework (DRF), and are using JWT authentication to authorize client users
     'FRONTEND_URL': 'http://52.66.250.136', # Redirect URL for the client if you are using JWT auth with DRF. See explanation below
 }

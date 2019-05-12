@@ -12,8 +12,7 @@ from .serializers import UserSerializer, ProfileSerializer
 
 class Dashboard(LoginRequiredMixin, TemplateView):
     template_name = 'core/dashboard.html'
-
-
+    # extra_context =
 
 @api_view(['GET'])
 def get_users(request):

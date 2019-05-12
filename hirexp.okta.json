@@ -1,0 +1,20 @@
+{
+    "METADATA_AUTO_CONF_URL": "https://outlooksso.okta.com/app/exkie6pfvsrL6Q4rr356/sso/saml/metadata",
+    "CREATE_USER": "FALSE",
+    "NEW_USER_PROFILE": {
+        "USER_GROUPS": [],
+        "ACTIVE_STATUS": true,
+        "STAFF_STATUS": true,
+        "SUPERUSER_STATUS": false
+    },
+    "ATTRIBUTES_MAP": {
+        "email": "email",
+        "username": "email",
+        "first_name": "firstName",
+        "last_name": "lastName"
+    },
+    "ASSERTION_URL": "http://52.66.250.136:8800",
+    "ENTITY_ID": "http://52.66.250.136:8800/saml2_auth/acs/",
+    "USE_JWT": true,
+    "FRONTEND_URL": "http://52.66.250.136"
+}

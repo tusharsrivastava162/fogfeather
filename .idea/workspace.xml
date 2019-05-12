@@ -2,6 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79bf78ff-6206-4165-b970-0e8f1ae275e3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/core/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/core/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fogfeather/settings/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/fogfeather/settings/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/saml2_lib/templates/django_saml2_auth/denied.html" beforeDir="false" afterPath="$PROJECT_DIR$/saml2_lib/templates/saml2_lib/denied.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/saml2_lib/templates/django_saml2_auth/signout.html" beforeDir="false" afterPath="$PROJECT_DIR$/saml2_lib/templates/saml2_lib/signout.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/saml2_lib/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/saml2_lib/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,20 +26,7 @@
     <favorites_list name="fogfeather" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/saml2_lib/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="77" column="45" selection-start-line="77" selection-start-column="45" selection-end-line="77" selection-end-column="45" />
-              <folding>
-                <element signature="e#47#130#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -49,7 +45,13 @@
       <find>signin</find>
       <find>_get_saml_client</find>
       <find>get_reverse</find>
+      <find>settings.SAML2_AUTH</find>
+      <find>SAML2_AUTH</find>
     </findStrings>
+    <replaceStrings>
+      <replace>SAML2_AUTH</replace>
+      <replace>saml2_auth</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="UPDATE_TYPE" value="MERGE" />
@@ -58,10 +60,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/core/models.py" />
         <option value="$PROJECT_DIR$/core/utils.py" />
         <option value="$PROJECT_DIR$/core/urls.py" />
-        <option value="$PROJECT_DIR$/core/views.py" />
         <option value="$PROJECT_DIR$/core/templates/core/base.html" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/runtime.txt" />
@@ -71,18 +71,26 @@
         <option value="$PROJECT_DIR$/fogfeather/settings/local.py" />
         <option value="$PROJECT_DIR$/manage.py" />
         <option value="$PROJECT_DIR$/fogfeather/wsgi.py" />
-        <option value="$PROJECT_DIR$/core/templates/core/dashboard.html" />
         <option value="$PROJECT_DIR$/core/serializers.py" />
         <option value="$PROJECT_DIR$/fogfeather/urls.py" />
         <option value="$PROJECT_DIR$/fogfeather/settings/production.py" />
         <option value="$PROJECT_DIR$/core/templates/registration/login.html" />
         <option value="$PROJECT_DIR$/fogfeather/settings/saml_configs.json" />
         <option value="$PROJECT_DIR$/fogfeather/settings/ts.py" />
-        <option value="$PROJECT_DIR$/fogfeather/settings/base.py" />
         <option value="$PROJECT_DIR$/django_saml2_auth/urls.py" />
         <option value="$PROJECT_DIR$/django_saml2_auth/views.py" />
         <option value="$PROJECT_DIR$/saml2_lib/urls.py" />
+        <option value="$PROJECT_DIR$/fogfeather/settings/base.py" />
+        <option value="$PROJECT_DIR$/core/views.py" />
+        <option value="$PROJECT_DIR$/core/models.py" />
+        <option value="$PROJECT_DIR$/core/admin.py" />
+        <option value="$PROJECT_DIR$/core/templates/core/dashboard.html" />
+        <option value="$PROJECT_DIR$/hirexp.okta.json" />
+        <option value="$PROJECT_DIR$/saml2_lib/ts.py" />
+        <option value="$PROJECT_DIR$/saml2_lib/appinventiv.onelogin.json" />
+        <option value="$PROJECT_DIR$/saml2_lib/hirexp.okta.json" />
         <option value="$PROJECT_DIR$/saml2_lib/views.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -98,7 +106,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -109,18 +116,26 @@
             <path>
               <item name="fogfeather" type="b2602c69:ProjectViewProjectNode" />
               <item name="fogfeather" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="saml2_lib" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="fogfeather" type="b2602c69:ProjectViewProjectNode" />
               <item name="fogfeather" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="saml2_lib" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fogfeather" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fogfeather" type="462c0819:PsiDirectoryNode" />
+              <item name="saml2_lib" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="saml2_lib" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -133,11 +148,12 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/fogfeather/settings" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/fogfeather/settings" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -195,6 +211,11 @@
       <workItem from="1556273975111" duration="4947000" />
       <workItem from="1556344462652" duration="3072000" />
       <workItem from="1556692833523" duration="11068000" />
+      <workItem from="1557381785613" duration="2811000" />
+      <workItem from="1557474764753" duration="812000" />
+      <workItem from="1557487038061" duration="1935000" />
+      <workItem from="1557569051137" duration="4355000" />
+      <workItem from="1557676927265" duration="5080000" />
     </task>
     <task id="LOCAL-00001" summary="checking git">
       <created>1556696824456</created>
@@ -221,14 +242,14 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74420000" />
+    <option name="totallyTimeSpent" value="91590000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-37" width="1366" height="805" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49565217" visible="true" weight="0.2560606" />
-      <window_info id="Structure" order="1" sideWeight="0.5043478" side_tool="true" visible="true" weight="0.2560606" />
-      <window_info id="Favorites" order="2" sideWeight="0.5050505" side_tool="true" weight="0.275" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.38528138" visible="true" weight="0.25984848" />
+      <window_info id="Structure" order="1" sideWeight="0.6147186" side_tool="true" weight="0.25984848" />
+      <window_info id="Favorites" order="2" sideWeight="0.5036075" side_tool="true" weight="0.2560606" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.6984127" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -240,8 +261,8 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.5714286" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.5021645" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.5959596" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.85281384" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.8816739" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -296,17 +317,18 @@
     <MESSAGE value="checking git" />
     <option name="LAST_COMMIT_MESSAGE" value="checking git" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/saml2_lib/views.py</url>
+          <line>215</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/core/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/venv/lib/python3.7/site-packages/rest_framework/serializers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1319">
@@ -412,13 +434,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/templates/core/dashboard.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/venv/lib/python3.7/site-packages/rest_auth/utils.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -426,13 +441,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/venv/lib/python3.7/site-packages/django_saml2_auth/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="175" column="57" selection-start-line="175" selection-start-column="57" selection-end-line="175" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/venv/lib/python3.7/site-packages/django_saml2_auth/views.py" />
     <entry file="file://$PROJECT_DIR$/fogfeather/settings/production.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -491,29 +500,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fogfeather/settings/ts.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/venv/lib/python3.7/site-packages/django_saml2_auth/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fogfeather/settings/saml_configs.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/fogfeather/settings/ts.py" />
+    <entry file="file://$USER_HOME$/venv/lib/python3.7/site-packages/django_saml2_auth/urls.py" />
     <entry file="file://$PROJECT_DIR$/fogfeather/settings/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -540,16 +528,6 @@
     <entry file="file://$PROJECT_DIR$/core/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/saml2_lib/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -570,20 +548,101 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/fogfeather/settings/saml_configs.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/templates/core/dashboard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hirexp.okta.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/saml2_lib/ts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="508">
+          <caret line="44" column="48" selection-start-line="44" selection-start-column="48" selection-end-line="44" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/saml2_lib-bkp/ts.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hirexp.okta.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appinventiv.onelogin.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/fogfeather/settings/base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2618">
-          <caret line="176" column="45" selection-start-line="176" selection-start-column="45" selection-end-line="176" selection-end-column="45" />
+        <state relative-caret-position="315">
+          <caret line="44" column="15" selection-start-line="44" selection-start-column="15" selection-end-line="44" selection-end-column="15" />
           <folding>
             <element signature="e#309#318#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/saml2_lib/templates/saml2_lib/denied.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4930">
+          <caret line="290" selection-start-line="290" selection-end-line="290" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/saml2_lib/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="77" column="45" selection-start-line="77" selection-start-column="45" selection-end-line="77" selection-end-column="45" />
+        <state relative-caret-position="1392">
+          <caret line="228" column="45" lean-forward="true" selection-start-line="228" selection-start-column="45" selection-end-line="228" selection-end-column="45" />
           <folding>
             <element signature="e#47#130#0" expanded="true" />
           </folding>

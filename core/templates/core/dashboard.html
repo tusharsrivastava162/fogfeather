@@ -7,7 +7,8 @@
     <div class="col-lg-4">
         <p class="text-info">{{ user.username }}<br>
             {{ user.first_name }} {{ user.last_name }}<br>
-            {{ user.email }}
+            {{ user.email }}<br>
+            {{ user.employee.company.name }}
         </p>
     </div>
 {% endblock %}
